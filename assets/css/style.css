@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+#main {
+
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 46px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 46px;
+    padding: 0 16px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nav li:hover a {
+    background-color: #ccc;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #000;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/Img/slider1.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 0;
+    bottom: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #000;
+    padding: 12px 24px;
+}
+
+#slider .text-content h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+#content {
+   
+}
+
+#content .content-section {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .section-heading {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+
+#content .section-sub-heading{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text{
+    margin-top: 25px;
+    font-size: 15px;
+    opacity: 0.6;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#content .member{
+    width: 948px;
+    height: 392px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .member-name{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+
+#content .member-text{
+    text-align: justify;
+    opacity: 0.6;
+    line-height: 1.6;
+}
+
+#content .member-item {
+    width: 50%;
+    float: left;
+    padding: 12px 24px;
+}
+
+#content .member-avt{
+    width: 423px;
+    opacity: 0.6;
+}
+
+#content .member-avt:hover{
+    opacity: 1;
+}
+
+#content .sub-member{
+    height: 64px;
+}
+
+#content .member-job{
+    font-size: 18px;
+    line-height: 64px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#content .member-job-pt{
+    margin-left: auto;
+    width: 948px;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#content .photo{
+   opacity: 0.6;
+   font-size: 15px;
+   letter-spacing: 10px;
+}
+
+#content .job-list-pt{
+    margin-left: auto;
+    margin-right: auto;
+    width: 948px;
+    height: 35px;
+    background-color: #f1f1f1;
+}
+
+#content .job-pt{
+    width: 90%;
+    padding: 4px 8px;
+    background-color: #616161;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+}
+
+#content .member-job-web{
+    margin-left: auto;
+    width: 948px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+#content .design{
+    opacity: 0.6;
+   font-size: 15px;
+   letter-spacing: 10px;
+}
+
+#content .job-list-design{
+    margin-left: auto;
+    margin-right: auto;
+    width: 948px;
+    height: 35px;
+    background-color: #f1f1f1;
+}
+
+#content .job-web{
+    width: 85%;
+    padding: 4px 8px;
+    background-color: #616161;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+}
+
+#content .member-job-pts{
+    margin-left: auto;
+    width: 948px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+#content .pts{
+    opacity: 0.6;
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+
+#content .job-list-pts{
+    margin-left: auto;
+    margin-right: auto;
+    width: 948px;
+    height: 35px;
+    background-color: #f1f1f1;
+}
+
+#content .job-pts{
+    width: 75%;
+    padding: 4px 8px;
+    background-color: #616161;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+}
+
+#content .fortfolio-header{
+    background-color: #616161;
+    height: 134px;
+    margin-top: 64px;
+}
+
+#content .list-fortfolio li{
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#content .list-fortfolio li a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#content .fortfolio-body{
+    position: relative;
+}
+
+#content .fortfolio-avt{
+    height: 400px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#content .text-fortfolio{
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    bottom: 40%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#content .fortfolio-content{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .fortfolio-heading{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+
+#content .fortfolio-text{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+    line-height: 1.6;
+}
+
+#content .fortfolio-list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: 162px;
+}
+
+#content .fortfolio-item{
+    float: left;
+    width: 24%;
+}
+
+#content .fortfolio-img{
+    width: 217px;
+}
+
+#content .fortfolio-more{
+    margin-top: 64px;
+    width: 200px;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#content .fortfolio-btn{
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: #000;
+    padding: 12px 24px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#content .fortfolio-btn:hover{
+    background-color: #ccc;
+}
+
+#content .contact{
+    margin-top: 50px;
+    position: relative;
+}
+
+#content .contact-img{
+    height: 400px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#content .contact-text{
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    bottom: 40%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#content .contact-content{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .contact-heading{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+
+#content .contact-slogan{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+    
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
+}
+ .mt-8{
+    margin-top: 8px !important;
+ }
+
+.mt-16{
+    margin-top: 16px !important;
+}
+
+.contact-row{
+    margin-top: 48px;
+}
+
+.contact-info{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info i[class*="ti-"]{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form{
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form .form-submit-btn{
+    background-color: #000;
+    color:#fff;
+    border: none;
+    padding: 10px 16px;
+    float: right;
+    outline: none;
+}
+
+.contact-form .form-submit-btn:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.map-section{
+    width: 100%;
+}
+
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+    background-color: #000;
+    margin-top: -4px;
+    opacity: 0.6;
+}
+
+#footer:hover{
+    opacity: 1;
+}
+
+.social-list {
+    font-size: 24px;
+}
+
+.social-list a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-list a:hover{
+    opacity: 0.4;
+}
